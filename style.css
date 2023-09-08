@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background: rgba(20, 20, 238, 0.603);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divGlobal{
+    height: 90%;
+    width: 35%;
+    margin: 20px auto;
+    background: whitesmoke;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+}
+.divSingup{
+    margin-top: 20px;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+    padding: 10px 0;
+}
+.divInput{
+    width: 90%;
+    height: fit-content;
+    padding: 10px;
+    background: rgba(139, 127, 127, 0.575);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    transition: all 1s ease-out;
+}
+.divInput  input, .divSingup p{
+    outline: none;
+    border: none;
+    width: 90%;
+    padding: 10px;
+    background: transparent;
+}
+.divBtn{
+    width: 100%;
+    height: 15%;
+   
+    display: flex;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    width: 45%;
+    padding: 10px;
+    background:rgba(139, 127, 127, 0.575);
+    text-align: center;
+    border-radius:25px;
+    cursor: pointer;
+    transition: all 1s ease-in;
+}
+.Active{
+    background-color: rgb(13, 105, 226);
+    color: white;
+}
